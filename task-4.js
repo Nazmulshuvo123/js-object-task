@@ -16,5 +16,6 @@ let student = {
     city: 'Gaibandha',
     isStudent: true
 };
-const proNumber = Object.keys(student).length;
-console.log(proNumber);
+const proNumber = Object.keys(student);
+const x = proNumber.length;
+console.log(x);
